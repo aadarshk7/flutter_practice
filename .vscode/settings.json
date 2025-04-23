@@ -1,0 +1,33 @@
+{
+    // Java Configuration
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.compile.nullAnalysis.mode": "automatic",
+    // Cross-Platform Editor Settings
+    // "editor.fontFamily": "'CaskaydiaMono NF Light', 'CaskaydiaMono NF Propo', 'SpaceMono', Consolas, 'Courier New', monospace, 'Operator Mono Lig'",
+    //  "editor.fontFamily": " monospace, 'Operator Mono Lig'",
+    // "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'CaskaydiaMono NF Mono','CaskaydiaMono Nerd Font','CaskaydiaMono Nerd Font Propo', Menlo, Monaco, 'Courier New', monospace",
+    // Flutter/Dart Configuration (from previous setup)
+    "debug.toolBarLocation": "commandCenter",
+    "dart.lineLength": 150,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            80,
+            120,
+            150
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets"
+    },
+    // Workspace Recommendations
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    // Version Control Settings
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true,
+        "suppressLineUncommittedWarning": true
+    }
+}
