@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_practice/features/settings/view/settings_dialog.dart';
+import 'package:flutter_practice/in_app_Review_demo/in_app_review_demo.dart';
 import 'package:flutter_practice/presentations/isolates/isolate_example.dart';
 
 import 'features/settings/cubit/settings_cubit.dart';
@@ -45,6 +46,15 @@ class MyHomePage extends StatelessWidget {
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) => const IsolatesExample(),
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              child: const Text('In App Review Demo'),
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const InAppReviewDemo(),
                 ),
               ),
             ),
