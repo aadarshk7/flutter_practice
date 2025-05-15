@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             ElevatedButton(
-              child: const Text('ISOLATES EXAMPLE'),
+              child: const Text('ISOLATES EXAMPLE TEST'),
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) => const IsolatesExample(),
